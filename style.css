@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: merriweather;
 }
 
 .bg{
@@ -11,13 +12,13 @@
 }
 
 .bg-image {
+    display: flex;
+    justify-content: center;
     background-image: url('resources/Banner\ Image.png');
     height:100%;
     width:100%;
     background-repeat: no-repeat;
     margin: 50px 200px 0px 300px;
-    display: flex;
-    justify-content: center;
 }
 
 .bg-text{
@@ -45,4 +46,27 @@
     display: flex;
     justify-content: center;
     justify-items: center;
+}
+
+.party{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.party{
+    display: flex;
+    background-image: url(resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    margin: 100px;
+    justify-content: space-between;
+    padding:40px;
+}
+
+
+.party-head{
+    color:white;
+    margin-top:100px;
+    margin-left:100px;
+
 }
