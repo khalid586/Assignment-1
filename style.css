@@ -90,12 +90,16 @@
     margin-bottom: 20px; 
     width: 350px;
     height: 300px;
+    transition: transform .3s ease-in-out, box-shadow .6s ease-in-out;
 }
 
 .product-items img:hover {
     transform: scale(1.1); 
     box-shadow: 0 0 50px rgb(0, 254, 0);
 }
+
+
+
 
 .last{
     display: flex;
