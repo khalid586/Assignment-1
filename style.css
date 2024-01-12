@@ -148,3 +148,20 @@
 .email-text{
     align-items:left;
 }
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #070211;
+    width: 100%;
+    height: 609px;
+    
+}
+.foot-left p{
+    font-family: inter;
+}
+.foot-right{
+    padding: 100px 150px 100px 490px;
+    font-family: inter;
+}
