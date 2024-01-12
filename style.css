@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg {
+    background-image: url('resources/Banner\ Image.png');
+    height:800px;
+    background-repeat: no-repeat;
+    margin: 10px 200px 0px 200px;
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+}
+
+.bg-text{
+    color: #FFFFFF;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.small{
+    font-family: merriweather;
+    font-size:20px;
+    padding: 20px;
+}
+.large{
+    font-family: merriweather;
+    font-size: 50px;
+    
+}
+.offer{
+    font-family: inter;
+}
