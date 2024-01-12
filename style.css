@@ -85,3 +85,14 @@
     text-align: center;
     font-weight: 800;
 }
+.product-items img{
+    padding: 20px;
+    margin-bottom: 20px; 
+    width: 350px;
+    height: 300px;
+}
+
+.product-items img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 0 50px rgb(0, 254, 0);
+}
