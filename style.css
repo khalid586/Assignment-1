@@ -150,13 +150,15 @@
 }
 
 .footer{
-    display: flex;
-    justify-content: space-between;
-    color: white;
     background-color: #070211;
     width: 100%;
-    height: 609px;
-    
+    height: 490px;
+    align-items: center;    
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    color:white;
 }
 .foot-left p{
     font-family: inter;
@@ -164,4 +166,17 @@
 .foot-right{
     padding: 100px 150px 100px 490px;
     font-family: inter;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+}
+
+.logos img{
+    padding-right: 30px;
+}
+.footlast-left{
+    color:white;
+    display: flex;
+    justify-content: space-between;
 }
