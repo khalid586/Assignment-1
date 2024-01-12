@@ -3,20 +3,26 @@
     padding: 0px;
 }
 
-.bg {
+.bg{
+    display: flex;
+    text-align: center;
+}
+
+.bg-image {
     background-image: url('resources/Banner\ Image.png');
-    height:800px;
+    height:100%;
+    width:100%;
     background-repeat: no-repeat;
-    margin: 10px 200px 0px 200px;
+    margin: 50px 200px 0px 300px;
     display: flex;
     justify-content: center;
-    padding: 200px;
 }
 
 .bg-text{
     color: #FFFFFF;
     font-weight: 700;
-    text-align: center;
+    
+    padding: 200px;
     
 }
 .small{
@@ -30,5 +36,11 @@
     
 }
 .offer{
+    margin-top: 90px;
     font-family: inter;
+}
+.image-class{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 }
