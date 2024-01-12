@@ -5,6 +5,8 @@
 
 .bg{
     display: flex;
+    justify-content: center;
+    justify-items: center;
     text-align: center;
 }
 
@@ -22,7 +24,7 @@
     color: #FFFFFF;
     font-weight: 700;
     
-    padding: 200px;
+    padding: 200px 500px;
     
 }
 .small{
