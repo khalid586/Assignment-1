@@ -96,3 +96,54 @@
     transform: scale(1.1); 
     box-shadow: 0 0 50px rgb(0, 254, 0);
 }
+
+.last{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    text-align: center;
+}
+
+.contents{
+    text-align: center;
+    width: 1320px;
+    height: 610px;
+    padding-top:200px;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+/* .email{
+    background-color: white;
+    width:648px;
+    height:72px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left:350px;
+    border-radius: 150px;
+} */
+
+.email {
+    position: relative;
+    background-color: white;
+    width: 648px;
+    height: 72px;
+    text-align: left bottom;
+    margin-top: 50px;
+    margin-left: 350px;
+    border-radius: 150px;
+    overflow: hidden; 
+}
+
+.email::after {
+    content: "Subscribe";
+    color:white;
+    position: absolute;
+    padding-top:25px;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    background-color: red;
+}
+.email-text{
+    align-items:left;
+}
